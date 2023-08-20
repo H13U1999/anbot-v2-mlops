@@ -1,0 +1,9 @@
+tensorflow
+requests
+flask
+pyrebase4
+matplotlib
+python-dotenv
+uuid
+Pillow>=7.1.2
+numpy
