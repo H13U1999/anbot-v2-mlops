@@ -22,10 +22,13 @@ STORAGE_BUCKET = "an-bot-obj-dect.appspot.com"
 [[services]]
 internal_port = 8080
 protocol = "tcp"
+auto_stop_machines = true
+auto_start_machines = true
+min_machines_running = 0
 
 [services.concurrency]
-hard_limit = 25
-soft_limit = 20
+hard_limit = 5
+soft_limit = 3
 
 [[services.ports]]
 handlers = ["http"]
